@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-escalable= no">
+    <title>Antonio Pacheco</title>
+    <meta name="description"
+        content="CV de Juan Antonio Pacheco, programador junior especializado en desarrollo web y aplicaciones.">
+        <link rel="icon" href="css/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--INICIA MENU-->
+    <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg sticky-top " data-bs-theme="dark">
+        <div class="container-fluid   col-10">
+            <a class="navbar-brand " href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor"
+                    class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path
+                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
+                </svg>
+                <strong>Antonio Pacheco</strong>
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#edu">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#contacto">Contactame</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-info" type="button">
+                            <a href="css/pdf/" download="CV Antonio Pacheco">
+                                Descargar CV
+                            </a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--TERMINA MENU-->
+
+    <!--CONTENEDOR-->
+
+
+
+    <div class="container-md mt-2">
+
+
+        <div class="row ">
+            <!--BARRA LATERAL -->
+            <div class=" col-12  col-md-2 position-end mx-0 mx-md-4 fixed-buttom">
+                <div class="d-flex flex-column align-items-center py-4">
+                    <div id="lateral" class="row border border-info rounded p-2">
+                        <div class="" id="foto">
+                            <img src="css/img/foto_perfil.png" class="img-fluid rounded-circle  col-2 col-md-5"
+                                alt="Foto de perfil">
+                        </div>
+                        <div class="" id="info">
+                            <h3 class="my-4"><strong>José Antonio Pacheco Hernández</strong></h3>
+                            <div id="redes">
+                                <a href="https://www.linkedin.com/in/jantoniopacheco/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25 " fill="lightgray"
+                                        class="bi bi-linkedin mx-2 " viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                </a>
+
+                                <a href="mailto:joseantonio.pachecoh@gmail.com?subject=Oferta%20laboral"
+                                    target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25 " fill="lightgray"
+                                        class="bi bi-envelope mx-2" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                                    </svg>
+                                </a>
+
+                                <a href="https://wa.link/z82iba" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25 " fill="lightgray"
+                                        class="bi bi-whatsapp mx-2" viewBox="0 0 16 16">
+                                        <path
+                                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <p class="my-4">Desarrollador Web <span>|</span> Especialista en JavaScript, HTML5, CSS3
+                                <span>|</span> Creando soluciones digitales innovadoras y escalables
+                            </p>
+
+                            <a class="btn btn-info mt-2 mb-2 text-white fw-bold " href="#" role="button"
+                                id="disponible">Disponible para
+                                trabajar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN BARRA LATERAL -->
+
+
+            <div class="col-md-9 mt-4 mx-auto ">
+
+                <!--SOBRE MI-->
+                <div id="sobremi">
+
+                    <div class="col-12 d-flex align-items-center  ">
+                        <div id="presentacion" class="col-12 col-md-8 pt-2">
+                            <div class="titulo col-12 d-flex   fs-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
+                                    class="bi bi-person mx-2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                                </svg>
+                                <h2 class="h1">Sobre mi</h2>
+                            </div>
+                            <p class=" fw-semibold">Soy un desarrollador web emergente con una sólida comprensión de
+                                <span class="azul">JavaScript, HTML5 y CSS3.</span> Mi enfoque está en
+                                aprender y crecer dentro del campo de la tecnología, con un <span class="azul"> interés
+                                    particular en la programación y el desarrollo de soluciones digitales
+                                    innovadoras.</span>
+                            </p>
+                        </div>
+
+                        <div class="col-3 offset-1 d-none d-md-block" id="avatar">
+                            <img src="css/img/avatar.png" class="img-fluid" alt="Avatar">
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--FIN SOBRE MI-->
+
+
+                <!--TECNOLOGIAS-->
+                <div id="tecnologias">
+                    <div class="titulo col-12 d-flex align-items-center justify-content-center mt-5  fs-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
+                            class="bi bi-braces  mx-2" viewBox="0 0 16 16">
+                            <path
+                                d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6M13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6" />
+                        </svg>
+                        <h2 class="h1">Tecnologías</h2>
+                    </div>
+
+                    <div class="col-12 col-md-6 mx-auto my-4" id="categoria">
+                        <div class="d-flex justify-content-center my-3">
+                            <h3>Lenguajes</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex flex-row justify-content-between ">
+                                <div class="card col-3 ">
+                                    <img src="css/img/js_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">JavaScript</p>
+                                    </div>
+                                </div>
+
+                                <div class="card col-3">
+                                    <img src="css/img/html_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">HTML 5</p>
+                                    </div>
+                                </div>
+
+                                <div class="card col-3">
+                                    <img src="css/img/css_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">CSS 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mx-auto my-4">
+                        <div class="d-flex justify-content-center my-3">
+                            <h3>Frameworks y librerías</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex flex-row justify-content-between">
+                                <div class="card col-3 mx-2">
+                                    <img src="css/img/boostrap_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">Bootstrap</p>
+                                    </div>
+                                </div>
+
+                                <div class="card col-3 mx-2">
+                                    <img src="css/img/sass_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">SASS</p>
+                                    </div>
+                                </div>
+
+                                <div class="card col-3 mx-2">
+                                    <img src="css/img/less_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">LESS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mx-auto my-4">
+                        <div class="d-flex justify-content-center my-3">
+                            <h3>Tecnologías y herramientas</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex flex-row justify-content-between">
+                                <div class="card col-3 mx-2">
+                                    <img src="css/img/github_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">Github</p>
+                                    </div>
+                                </div>
+
+                                <div class="card col-3 mx-2">
+                                    <img src="css/img/notion_logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">Notion</p>
+                                    </div>
+                                </div>
+
+                                <div class="card col-3 mx-2">
+                                    <img src="css/img/figma_logo.png    " class="card-img-top" alt="...">
+                                    <div class="card-body mx-auto">
+                                        <p class="card-text">Figma</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!--FIN TECNOLOGIAS-->
+
+
+                <!--INICIO EDUCACION -->
+
+                <div class="educacion mt-3">
+
+
+                    <div class="titulo col-12 d-flex align-items-center justify-content-center  fs-5 mt-5 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
+                            class="bi bi-mortarboard-fill  mx-2" viewBox="0 0 16 16">
+                            <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                            <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                        </svg>
+                        <h2 class="h1" id="edu">Educación</h2>
+                    </div>
+
+                    <div class="categoria_educacion">
+
+                        <h3 class="d-inline-flex gap-1 col-12  titulo_edu">
+                            <button class="btn  collapsed col-12" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#escuela" aria-expanded="true">
+                                <p class="h2">Titulos</p>
+                            </button>
+                        </h3>
+
+                        <div class="collapse show " id="escuela">
+                            <div class="card card-body  row flex-row ">
+
+                                <div class="col-12  col-sm-6 ">
+                                    <div class="my-3 ms-4 ">
+                                        <strong class="nombre_titulo fs-5 text-info">Ing. Redes Computacionales</strong>
+                                        <p class="fw-bold mb-0">ETAC Coacalco</p>
+                                        <span class="fw-light text-body-secondary">En tramite</span>
+                                    </div>
+
+                                    <div class="mt-1 ms-4 ">
+                                        <strong class="nombre_titulo fs-5 text-info">Técnico en programación</strong>
+                                        <p class="fw-bold mb-0">CECyTEM Tecámac</p>
+                                        <p class="fw-light text-body-secondary">2015 - 2018</p>
+                                    </div>
+
+                                </div>
+
+                                <hr class="d-block d-sm-none">
+
+                                <div class="col-12 col-sm-6">
+                                    <p class=" fs-3 text-info mx-auto fw-bold">Fortalezas adquiridas</p>
+                                    <span class="">
+                                        <table class="table table-hover ">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="">
+                                                        Base sólida en conceptos de redes computacionales y
+                                                        programación.
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="">
+                                                        Habilidad para analizar, diseñar e implementar soluciones
+                                                        tecnológicas.
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="">
+                                                        Experiencia en el uso de herramientas y lenguajes de
+                                                        programación.
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="">
+                                                        Capacidad para trabajar de forma independiente y en equipo.
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="">
+                                                        Actitud proactiva y orientada a la resolución de problemas.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="categoria_educacion mt-5">
+
+                        <h3 class="d-inline-flex gap-1 col-12  titulo_edu">
+                            <button class="btn  collapsed col-12" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cursos" aria-expanded="true">
+                                <p class="h2">Cursos</p>
+                            </button>
+                        </h3>
+
+                        <div class="collapse show" id="cursos">
+                            <div class="card card-body  row flex-row">
+
+                                <div class=" col-12  col-sm-6">
+
+                                    <div class="my-3 ms-4 ">
+                                        <strong class="nombre_titulo fs-5 text-info">Máster en JavaScript: Aprende JS,
+                                            jQuery, Angular, NodeJS
+                                            <span class="badge text-bg-warning">En proceso</span>
+                                        </strong>
+                                        <p class="fw-bold mb-0">Udemy</p>
+                                    </div>
+
+                                    <div class="my-3 ms-4 curso-item ">
+                                        <strong class="nombre_titulo fs-5 text-info">Máster en CSS: Responsive, SASS,
+                                            Flexbox, Grid y Bootstrap
+                                            <span class="badge text-bg-success">Nuevo</span>
+                                        </strong>
+                                        <p class="fw-bold mb-0">Udemy</p>
+                                    </div>
+
+                                    <div class="my-3 ms-4 ">
+                                        <strong class="nombre_titulo fs-5 text-info">CCNA: Introduction to Networks
+                                        </strong>
+                                        <p class="fw-bold mb-0">CISCO</p>
+                                    </div>
+
+                                    <div class="my-3 ms-4 ">
+                                        <strong class="nombre_titulo fs-5 text-info">CCNA: Switching, Routing, and
+                                            Wireless Essentials
+                                        </strong>
+                                        <p class="fw-bold mb-0">CISCO</p>
+                                    </div>
+                                </div>
+
+
+                                <hr class="d-block d-sm-none">
+
+                                <div class="col-12  col-sm-6">
+                                    <p class=" fs-3 text-info mx-auto fw-bold">Aprendizaje adquirido</p>
+                                    <span class="">
+                                        <table class="table table-hover  ">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="">
+                                                        Crear diseños responsivos, utilizar preprocesadores como SASS, y
+                                                        dominar técnicas de layout avanzadas como Flexbox y Grid.
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="">
+                                                        Fundamentos de JS hasta librerías como jQuery y frameworks de
+                                                        desarrollo front-end (Angular) y back-end (NodeJS).
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="">
+                                                        Conceptos fundamentales del networking, el funcionamiento de las
+                                                        redes locales (LAN) y amplias (WAN), y las tecnologías de
+                                                        routing y switching.
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="">
+                                                        Configurar y administrar switches, routers y redes inalámbricas.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!--FIN EDUCACION -->
+
+
+                <!--INICIO CONTACTO-->
+                <div class="contacto mt-3">
+                    <div class="titulo col-12 d-flex align-items-center justify-content-center fs-5 mt-5 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
+                            class="bi bi-person-vcard-fill mx-2" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0" />
+                        </svg>
+                        <h2 class="h1" id="contacto">Contacto</h2>
+                    </div>
+
+
+                    <div id="contactos_items " class="row">
+
+                        <div id="formulario" class="col-12 col-md-6 ">
+
+                            <div id="titulo_form" class="mb-4 col-12 text-info text-center ">
+                                <p class="h2 ">¡Escribeme!</p>
+                            </div>
+
+                            <form action="https://formsubmit.co/joseantonio.pachecoh@gmail.com" method="POST" class="col-12">
+
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                        </svg>
+                                    </span>
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" required id="floatingInputGroup1"
+                                            placeholder="Username" name="Nombre">
+                                        <label for="floatingInputGroup1">Nombre</label>
+                                    </div>
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">@</span>
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" required id="floatingInputGroup1"
+                                            placeholder="Username" name="Correo">
+                                        <label for="floatingInputGroup1">Correo</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" required name="Mensaje"></textarea>
+                                    <label for="floatingTextarea2">Mensaje</label>
+                                </div>
+
+                                <div class="text-center ">
+                                    <button type="submit"
+                                        class="btn btn-info my-3  text-white fw-bold col-3 btn-lg w-100">Enviar</button>
+                                </div>
+
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/My_proyect/index.html">
+
+                                <input type="hidden" name="_captcha" value="false">
+                            </form>
+
+                        </div>
+
+                        <div id="contacto-items"
+                            class="col-12 col-md-6 mt-2  d-flex align-items-center justify-content-center">
+                            <div id="iconos" class="">
+
+                                <ul class="col-12 my-auto">
+                                    <li class="">
+                                        <a href="https://www.linkedin.com/in/jantoniopacheco/" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="lightgray"
+                                                class="bi bi-linkedin mx-2" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="mailto:joseantonio.pachecoh@gmail.com?subject=Oferta%20laboral"
+                                            target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="lightgray"
+                                                class="bi bi-envelope mx-2" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://wa.link/z82iba" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="lightgray"
+                                                class="bi bi-whatsapp mx-2 " viewBox="0 0 16 16">
+                                                <path
+                                                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--FIN CONTACTO-->
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <!--FIN CONTENEDOR-->
+    <hr>
+    <!--Footer-->
+    <footer class="container-fluid col-10 my-4 h-auto">
+        <div class="row">
+            <div id="menu" class="col">
+                <h5 class="h2 text-center">
+                    Menú
+                </h5>
+
+                <div>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#edu">Educación</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="ubicacion" class="col ">
+                <h5 class="h2 text-center">
+                    Ubicación
+                </h5>
+
+                <div class=" my-4 ">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30052.949102687777!2d-98.8950322940233!3d19.686269025446894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1eaf94e01ddc9%3A0xc77ed523147164da!2sTeotihuac%C3%A1n%20de%20Arista%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1719984179866!5m2!1ses!2smx"
+                        allowfullscreen="" loading="lazy" class="w-100 ratio ratio-1x1"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="col " id="desarrollado">
+
+                <h5 class="h2 text-center">Este sitio es desarrollado con:</h5>
+                <div class="d-flex justify-content-center">
+                    <ul>
+                        <li class="col-3 ">
+                            <a href="#">
+                                <img class="card-img-top" src="css/img/html_logo.png" alt="HTML 5">
+                            </a>
+                        </li>
+
+                        <li class="col-3 ">
+                            <a href="#">
+                                <img class="card-img-top" src="css/img/css_logo.png" alt="">
+                            </a>
+                        </li>
+
+                        <li class=" col-3">
+                            <a href="#">
+                                <img class="card-img-top" src="css/img/boostrap_logo.png" alt="">
+                            </a>
+                        </li>
+
+                        <li class="col-3">
+                            <a href="#">
+                                <img class="card-img-top" src="css/img/js_logo.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <h5 class="h2 text-center">Desarrollado por:</h5>
+                <p class="text-center"> &copy; Jose Antonio Pacheco Hernandez </p>
+            </div>
+        </div>
+    </footer>
+    <!--FIN FOOTER-->
+
+
+
+    <script type="text/javascript" src="jquery/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

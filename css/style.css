@@ -1,0 +1,275 @@
+
+/*GENERALES*/
+.titulo:hover{
+    transition: all 300ms;
+    color: #0dcaf0 ;
+}
+
+/*BARRA DE NAVEGACION*/
+ .navbar #navbarNav ul li button a{
+  text-decoration: none;
+  color: #0dcaf0;
+ }
+
+ .navbar #navbarNav ul li button:hover a {
+  color: black;
+ }
+
+/*BARRA LATERAL */
+
+#lateral #foto img {
+    box-shadow: 0px 0px 3px #eaeaea, 0px 2px 0px #eaeaea, 0px 0px 5px #eaeaea, 2px 1px 0px #eaeaea;
+}
+
+#lateral strong {
+    color: #0dcaf0;
+    text-shadow: 0px 0px 2px #055160;
+}
+
+#lateral #info span {
+    color: #0dcaf0;
+}
+
+#lateral #info p {
+    font-size: 20px;
+}
+
+#lateral #info #redes a {
+    text-decoration: none;
+}
+
+#redes a svg:hover {
+    transition: all 300ms;
+    fill: #0dcaf0;
+}
+
+/*SOBRE MI*/
+#sobremi{
+    background: rgba(184,184,184,.25);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#sobremi #presentacion p {
+    font-size: 1em;
+}
+#sobremi #presentacion .azul{
+    color: #0dcaf0;
+}
+
+#sobremi #avatar {
+    background: radial-gradient(circle at center, #e5e5e5, #898989);
+    border-radius: 900px;
+    padding: 5px;
+}
+
+
+/*TECNOLOGIAS*/
+
+#tecnologias .card{
+    border: none;
+    transition: all 300ms;
+}
+
+#tecnologias .card:hover{
+    background-color: rgba(210,210,210,.5);
+    color: #0dcaf0;
+    font-weight: bold;
+
+}
+
+#tecnologias .card:hover {
+    transform: scale(1.1);
+}
+
+
+/*EDUCACION*/
+#edu_info .accordion-item{
+    
+    border: none;
+    transition: all 300ms;
+}
+
+#edu_info .accordion-item button:hover{
+    background-color: rgba(210,210,210,.2);
+    color: #0dcaf0;
+}
+
+.titulo_edu{
+    border-radius: 5px;
+}
+
+.titulo_edu:hover{
+    background-color: rgba(210,210,210,.2);
+    color: #0dcaf0;
+    border: 1px solid #0dcaf0;
+
+}
+
+.categoria_educacion .card{
+    border: none, 3px#2d2d2d inset;
+    background-color: rgba(219,219,219,.25);
+}
+
+.categoria_educacion table tbody tr td,
+.categoria_educacion table tbody tr th{
+    background: transparent ;
+    border-radius: 5px;
+}
+
+
+/*CONTACTO*/
+
+/*Formulario*/
+
+
+#contacto-items #iconos ul {
+    display: flex;
+
+  }
+  
+  #contacto-items #iconos  ul li {
+    list-style: none;
+  }
+  
+  #contacto-items #iconos ul li a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    padding: 5px;
+    margin:  10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+  #contacto-items #iconos ul li a svg {
+    position: relative;
+    fill: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  #contacto-items #iconos ul li a:hover svg {
+    fill: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  #contacto-items #iconos ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  #contacto-items #iconos  ul li a:hover:before {
+    top: 0;
+  }
+  
+  #contacto-items #iconos ul li a:before{
+    background: #0dcaf0;
+  }
+
+  /*FOOTER*/
+
+  footer #menu h5,
+  footer #ubicacion  h5,
+  footer #desarrollado h5  {
+    color: #0dcaf0;
+  }
+
+
+  footer #menu a {
+    text-decoration: none;
+    color: #37bcf9;
+    transition: all 300ms;
+}
+
+footer #menu ul {
+    text-align: left;
+    margin: 20px;
+    font-size: 25px;
+}
+
+footer #menu ul li {
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+footer #menu ul li a {
+    display: block;
+    height: 40px;
+    transition: all 300ms;
+}
+
+footer #menu ul li:hover a {
+    padding-left: 40px;
+    color: white;
+    width: 100%;
+}
+
+footer #desarrollado ul {
+    display: flex;
+
+  }
+  
+  footer #desarrollado  ul li {
+    list-style: none;
+  }
+  
+  footer #desarrollado ul li a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    padding: 5px;
+    margin:  10px;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+  footer #desarrollado ul li a img {
+    position: relative;
+    fill: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  footer #desarrollado li a:hover img {
+    fill: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  footer #desarrollado ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  footer #desarrollado  ul li a:hover:before {
+    top: 0;
+  }
+  
+  footer #desarrollado ul li a:before{
+    background: #0dcaf0;
+  }
